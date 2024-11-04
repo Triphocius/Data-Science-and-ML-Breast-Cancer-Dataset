@@ -25,8 +25,7 @@ Model Building and Evaluation:
 Neural Network Architecture:
 
 A feedforward neural network with multiple hidden layers is used.
-The input layer has 30 neurons (corresponding to the 30 features).
-The hidden layers have 64 and 32 neurons, respectively.
+The hidden layers have 512 and 16 neurons, respectively.
 The output layer has a single neuron with a sigmoid activation function to predict the probability of malignancy.
 Model Compilation:
 
@@ -34,7 +33,7 @@ The model is compiled using the Adam optimizer, binary cross-entropy loss functi
 Model Training:
 
 The model is trained on the training set for a specified number of epochs.
-Early stopping is implemented to prevent overfitting.
+L1/L2 model tuning is implemented to prevent overfitting.
 Model Evaluation:
 
 The trained model is evaluated on the testing set.
@@ -43,4 +42,4 @@ A confusion matrix is generated to visualize the model's predictions.
 Additional Considerations:
 
 Hyperparameter Tuning: Experiment with different hyperparameters (e.g., learning rate, batch size, number of layers, number of neurons) to optimize the model's performance.
-Regularization: Techniques like L1/L2 regularization or dropout can be used to prevent overfitting.
+Regularization: L1/L2 regularization are used to prevent overfitting.
