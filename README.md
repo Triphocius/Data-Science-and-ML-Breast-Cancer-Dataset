@@ -1,10 +1,10 @@
 # Data-Science-and-ML-Breast-Cancer-Dataset
-Breast Cancer Dataset model in python by Waako Lucius and Ademun Sarah
+Breast Cancer Dataset model in python by Waako Lucius(Neural network coding and testing) and Ademun Sarah(Data analysis visualisations, Scaling)
 
 Breast Cancer Prediction using Neural Networks
 Dataset:
 
-This project utilizes the Breast Cancer Wisconsin (Diagnostic) Dataset. The dataset contains features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. The features describe characteristics of the cell nuclei present in the image.   
+This project utilizes the Breast Cancer Wisconsin (Diagnostic) Dataset.   
 
 Data Preparation and Preprocessing:
 
